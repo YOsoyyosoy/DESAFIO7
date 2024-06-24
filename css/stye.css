@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr repeat(2, 3fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    
+}
+
+.div2 {
+    grid-area: 2 / 1 / 3 / 2;
+    height: 300px;
+    width: 300px;
+    border: solid blue;
+}
+
+.div3 {
+    grid-area: 2 / 2 / 3 / 3;
+    height: 300px;
+    width: 300px;
+    border: solid yellow
+}
+
+.div4 {
+    grid-area: 2 / 3 / 3 / 4;
+    height: 300px;
+    width: 300px;
+    border: solid black 3px;
+}
+
+.div5 {
+    grid-area: 3 / 1 / 4 / 2;
+    height: 300px;
+    width: 300px;
+    border: solid blue
+}
+
+.div6 {
+    grid-area: 3 / 2 / 4 / 3;
+    height: 300px;
+    width: 300px;
+    border: solid yellow
+}
+
+.div7 {
+    grid-area: 3 / 3 / 4 / 4;
+height: 300px;
+    width: 300px;
+    border: solid black
+} 
+
+
+
+
+
+
+
+#buzorosa {
+    max-height: 99%;
+    width: 99%;
+    
+}
+
+#pantalonazul{
+    max-height: 99%;
+width: 99%;
+}
+
+#camisablanca{
+    max-height: 99%;
+    width: 99%;
+}
+#pantalones{  max-height: 99%;
+    width: 99%;}
+#camisaazul{  max-height: 99%;
+    width: 99%;}
+#buzoblanco{max-height: 99%;
+    width: 99%;}
